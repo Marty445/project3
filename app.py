@@ -21,7 +21,7 @@ if "sports" not in st.session_state:
         "Гергана": 0
     }
 
-st.subheader("Избери ученик и оценка.)
+st.subheader("Избери ученик и оценка.")
 
 color = st.selectbox("Любим цвят:", list(st.session_state.colors.keys()))
 sport = st.selectbox("Любим спорт:", list(st.session_state.sports.keys()))
