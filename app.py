@@ -15,7 +15,7 @@ if "colors" not in st.session_state:
 
 if "sports" not in st.session_state:
     st.session_state.sports = {
-        "Гощо": 0,
+        "Гошо": 0,
         "Пешо": 0,
         "Мария": 0,
         "Гергана": 0
